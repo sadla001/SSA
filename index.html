@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shiva Shashank Adlagatta</title>
+    <title>Shiva Shashank Adlagatta - Personal Webpage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,85 +13,83 @@
             color: #333;
         }
         header {
-            background-color: #0073e6;
+            background-color: #4CAF50;
             color: white;
-            padding: 1em 0;
+            padding: 1rem 0;
             text-align: center;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-            background: white;
-        }
-        h1, h2, h3 {
-            color: #0073e6;
-        }
-        .contact-info {
-            background-color: #e6f7ff;
-            padding: 10px;
-            border-left: 5px solid #0073e6;
-        }
-        .contact-info p {
+        nav {
             margin: 0;
+            padding: 1rem 0;
+            text-align: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
         }
         footer {
             text-align: center;
-            padding: 1em 0;
-            background-color: #0073e6;
+            padding: 1rem 0;
+            background: #333;
             color: white;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+        }
+        h2 {
+            color: #4CAF50;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Shiva Shashank Adlagatta</h1>
+        <p>Master’s Student in Computer Science | University of California, Riverside</p>
     </header>
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I am Shiva Shashank Adlagatta, currently pursuing a Master’s degree in Computer Science at the University of California, Riverside. With a passion for technology and a dedication to advancing my knowledge in the field, I am focused on developing innovative solutions and enhancing my technical skills. My academic journey is driven by a commitment to excellence and a desire to contribute to cutting-edge research and development in computer science.</p>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>Master’s in Computer Science</strong>, University of California, Riverside, CA, USA (Sep’23 - Dec’24)</li>
-                <li><strong>Bachelor’s in Computer Science</strong>, GITAM University, Hyderabad, TS, India (Jun ‘19 - May’23)</li>
-            </ul>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <p><strong>Languages:</strong> Python, Java 17, R, JavaScript, HTML5, Typescript, CSS3, C/C++, Node.js, .NET</p>
-            <p><strong>Frameworks:</strong> React JS, GitHub, Keras, TensorFlow, API development, Bootstrap, Django</p>
-            <p><strong>Tools:</strong> GIT, RDBMS, IntelliJ, Postman API, NoSQL, PostgreSQL, MongoDB, Eclipse, JIRA, JuPyter</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Cache-Oblivious Principal Component Analysis:</strong> C++, Python, Intel Math Kernel Library (MKL). Engineered an advanced algorithm optimizing spatial and temporal locality, significantly enhancing data processing efficiency for large-scale datasets.</li>
-                <li><strong>Web scraper detector:</strong> Node.js, Express.js, Redis, Nginx. Developed a robust anti-scraping framework reducing unauthorized data extraction by over 90% through honey pots and real-time request monitoring.</li>
-            </ul>
-        </section>
-        <section id="experience">
-            <h2>Internships</h2>
-            <ul>
-                <li><strong>Software Engineering Intern, Sri Data Technologies</strong> (May’22 - Oct’22): Developed MDFM System, implemented an LSTM-based ensemble model, and boosted profits by 4.5% through analytical innovations.</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <p><strong>Phone:</strong> +1 9515446778</p>
-                <p><strong>Email:</strong> shivashashank001@gmail.com</p>
-            </div>
-        </section>
-    </div>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm <strong>Shiva Shashank Adlagatta</strong>, a passionate software engineer currently pursuing a Master’s degree in Computer Science at the University of California, Riverside. My enthusiasm for technology drives me to constantly seek innovative solutions and enhance my technical skills. With a strong foundation in Data Science and Software Architecture, I am actively exploring opportunities in Product Software Development. I am eager to contribute to cutting-edge research and development in computer science and make a significant impact in the tech industry.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <h3>Internships</h3>
+        <p><strong>Software Engineering Intern, Sri Data Technologies</strong> (May 2022 - Oct 2022)</p>
+        <ul>
+            <li>Developed MDFM System: Orchestrated a data pipeline and web app, integrating key farm metrics for real-time operational insights.</li>
+            <li>Advanced Predictive Modeling: Implemented an LSTM-based ensemble model incorporating news sentiment analysis, significantly enhancing egg price forecasting and sales strategy.</li>
+            <li>Boosted Profits by 4.5%: My analytical innovations directly led to a substantial increase in average net profits for farmers.</li>
+        </ul>
+        <h3>Projects</h3>
+        <p><strong>Cache-Oblivious Principal Component Analysis</strong> (C++, Python, Intel Math Kernel Library (MKL))</p>
+        <ul>
+            <li>Engineered Cache-Oblivious PCA: Designed an advanced algorithm optimizing spatial and temporal locality, significantly enhancing data processing efficiency for large-scale datasets.</li>
+            <li>Optimized Performance: Achieved 35% faster computational speed through effective memory hierarchy usage, reducing cache misses and accelerating the PCA process.</li>
+        </ul>
+        <p><strong>Web Scraper Detector</strong> (Node.js, Express.js, Redis, Nginx)</p>
+        <ul>
+            <li>Engineered Robust Anti-Scraping Framework: Developed a system reducing unauthorized data extraction by over 90% through honey pots and real-time request monitoring.</li>
+            <li>Automated IP Defense Mechanism: Implemented a strategy curtailing scraping incidents by 70%, automatically restricting IPs exceeding set request thresholds.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via the following contact details:</p>
+        <ul>
+            <li><strong>Phone:</strong> +1 9515446778</li>
+            <li><strong>Email:</strong> <a href="mailto:shivashashank001@gmail.com">shivashashank001@gmail.com</a></li>
+        </ul>
+    </section>
     <footer>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/shivashashank" style="color: white;">LinkedIn</a></p>
+        <p>&copy; 2024 Shiva Shashank Adlagatta</p>
     </footer>
 </body>
 </html>
